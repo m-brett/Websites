@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.border{
+    border: 1px solid black;
+}
+.colorBar{
+    background-color: mediumpurple;
+    height: 50px;
+}
+.textcenter{
+    text-align: center;
+}
+/*NAVIGATION BAR*/
+nav{
+    height: 10vh;
+}
+
+/*NAVIGATION IMAGES*/
+.navimg{
+    height: 90vh;
+    display: flex;
+}
+.image{
+    flex: 25%;
+}
+
+.about{
+    border-radius: 5px;
+    border: white solid 3px;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    width: 50%;
+    display: block; 
+    margin: 0 auto;
+    align-self: center;
+    padding: 2%;
+}
+.imagebg{
+    background-image: url("../images/ph2.jpg");
+    background-size: cover;
+   
+}
+.navbox{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*TEACHER*/
+.teachers{
+    display: flex;
+    padding: 2% 5% 2% 5%;
+}
+.teach{
+    flex: 25%;
+}

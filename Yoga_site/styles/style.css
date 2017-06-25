@@ -14,6 +14,9 @@
 .textcenter{
     text-align: center;
 }
+.textpad{
+    margin: 3% 0% 2% 0%;
+}
 /*NAVIGATION BAR*/
 nav{
     height: 10vh;
@@ -53,12 +56,47 @@ a{
     text-decoration: none;
     color: white;
 }
+/*ABOUT*/
+.aboutsec{
+    display: flex;
+    padding: 0% 5% 0% 5%;
+}
+.aboutimg{
+    flex: 25%;
+    height: 50%;
+    width: 40%;
+}
+.abouttext{
+    flex: 75%;
+    padding-left: 2.5%;
+}
 
 /*TEACHER*/
 .teachers{
     display: flex;
     padding: 2% 5% 2% 5%;
+    text-align: center;
 }
 .teach{
     flex: 25%;
+    padding: 1%;
+}
+.teachtext{
+    text-align: left;
+    padding: 5%; 1% 1% 1%;
+    font-size: 90%;
+}
+/*CLASSES*/
+.classsec{
+    display: flex;
+    padding: 0% 5% 0% 5%;
+}
+.classesimg{
+    flex: 25%;
+    height: 50%;
+    width: 50%;
+}
+.classestext{
+    flex: 75%;
+    padding-left: 2.5%;
 }

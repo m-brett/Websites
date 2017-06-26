@@ -6,7 +6,7 @@
 	<html lang="en"/>
 	<title>Page Name</title>
 	<meta name="description" content="This is an example of a meta description. This will often show up in search results."/>
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="keywords" content="Keywords here">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
         
 <!--RESPONSIVE STYLE SHEETS-->  
@@ -18,8 +18,10 @@
 </head>
 
 <body>
-<!--NAVIGATION BAR-->    
-<nav class="border">Navigation bar</nav>
+<!--LOGO-->
+<section class="logo">
+    <h1>Logo</h1>
+</section>
 
 <!--NAVIGATION IMAGES-->   
 <section class="border navimg textcenter">
@@ -39,6 +41,13 @@
 </section>
 
 <div class="colorBar"></div>
+    
+<nav class="border">
+    <a href="#about">About</a>
+    <a href="#classes">Classes</a>
+    <a href="#prices">Prices</a>
+    <a href="#contact">Contact</a>
+</nav>
     
 <!--ABOUT US--> 
 <h1 id="about" class="textcenter textpad">Who We Are</h1> 
@@ -85,26 +94,91 @@
 <h1 id="classes" class="textcenter textpad">Our Classes</h1>
 <section>
     <div class="classsec">
-    <img class="classesimg" src="images/ph2.jpg" alt="TimeTable">
+        <div class="classesimg">
+        <div>
+            <table>
+                <tr><td></td><td>Mon</td><td>Tue</td><td>Wed</td><td>Thur</td><td>Fri</td><td>Sat</td><td>Sun</td></tr>
+                <tr><td colspan="8">Morning</td></tr>
+                <tr><td>6:30</td><td></td><td>Power Flow</td><td></td><td>Power Flow</td><td>Power Flow</td><td></td><td></td></tr>
+                <tr><td>9:30</td><td>Power Flow</td><td></td><td>Power Flow</td><td></td><td>Hot Yoga</td><td>Yoga Sculpt</td><td>Power Flow</td></tr>
+                <tr><td colspan="8">Evening</td></tr>
+                <tr><td>4:00</td><td></td><td></td><td></td><td></td><td></td><td>Power Flow</td><td></td></tr>
+                <tr><td>5:30</td><td></td><td></td><td>Yoga Scuplt</td><td>Yin</td><td>Yin</td><td></td><td>Yin</td></tr>
+                <tr><td>6:15</td><td>Power Flow</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td>7:30</td><td>Yin</td><td>Power Flow</td><td></td><td></td><td></td><td></td><td></td></tr>
+            </table>    
+        </div>
+        <div>Download Timetable</div> 
+        </div>
     <div class="classestext">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec orci urna. Proin sed auctor libero. Nullam elit tellus, ornare vitae mi quis, sagittis dictum odio. Cras vestibulum turpis eu euismod cursus. Sed lacinia dolor nec diam tincidunt, porta iaculis lacus mattis. Sed venenatis tellus sed nisl ultrices, ut dignissim dolor pharetra. Cras luctus a neque vitae fermentum. Donec id erat sed mi pulvinar efficitur. Curabitur congue mollis arcu. Pellentesque sagittis porta nisl at ullamcorper. Sed cursus a justo quis scelerisque. Donec tortor orci, sodales sed turpis eget, eleifend porttitor orci.<br><br>
-    Sed venenatis tellus sed nisl ultrices, ut dignissim dolor pharetra. Cras luctus a neque vitae fermentum. Donec id erat sed mi pulvinar efficitur. Curabitur congue mollis arcu. Pellentesque sagittis porta nisl at ullamcorper. Sed cursus a justo quis scelerisque. Donec tortor orci, sodales sed turpis eget, eleifend porttitor orci.
+    <h3>Class Description</h3>
+    POWER FLOW
+        <p class="teachtext">Power flow is a Vinyasa (‘breath with movement’) style of yoga. You move with the breath, as you practise a strong and powerful form of yoga encouraging presence, alignment, and connectivity. Practised in 28-30 degree room temperature, suitable for all levels beginner to advanced. A more fast paced class, which energises and nourishes.</p>
+        
+    YIN
+        <p class="teachtext">A beautiful complement to the more yang styles of yoga at Rise, our Yin classes are restorative, melting away tension through longer held postures, working on the fascia, connective tissue, ligaments and joints of the body, and teaching the essence of surrender. Practised in room temperature 25-28 degrees, suitable for all students.</p>
+
+    YOGA SCULPT
+        <p class="teachtext">We have revamped our Core Power classes to bring you a more full-body strength workout. In this class we use props (handweights, blocks, chi balls) to work with an all-over-body workout, and a fabulous platform to launch your yoga practice to the next level. Suitable for all levels, fabulous for athletes wanting to focus on core and general conditioning.</p>
+
+    SLOW FLOW
+        <p class="teachtext">Whether you are a beginner to yoga, or are a seasoned practitioner, we recommend that everyone attends our Slow Flow classes are perfect for you to refine your alignment and technique. This slow practice gives you the time to mentally engage with the body, as it moves through a series.</p>
     </div></div>
-    <div>Download Timetable</div>
 </section>
     
     
-<!--PRICES-->   
-<section class="colorBar">
-    <h1 id="prices" class="textcenter textpad">Prices</h1>
+<!--PRICES-->
+<h1 id="prices" class="textcenter textpad">Prices</h1>
+<section class="color">
+<h1 id="prices" class="textcenter textpad">Prices</h1>
+    <div class="pricesec">
+    <div class="price">
+        <div class="pricetop">Price 1</div>
+        <div class="pricebottom">Information</div>
+    </div>
+    <div class="price">
+        <div class="pricetop">Price 1</div>
+        <div class="pricebottom">Information</div>
+    </div>
+    <div class="price">
+        <div class="pricetop">Price 1</div>
+        <div class="pricebottom">Information</div>
+    </div>
+    <div class="price">
+        <div class="pricetop">Price 1</div>
+        <div class="pricebottom">Information</div>
+    </div>
+</div>
 </section>
+    
 <!--CONTACT-->       
 <section class="border">
-    <h1 id="contact" class="textcenter">Contact Us</h1>
+    <h1 id="contact" class="textcenter textpad">Contact Us</h1>
+    <div class="contactsec">
+    <div class="contact">
+        Image
+    </div>
+    <div class="contact">
+        Map  
+    </div>
+    <div class="contact">
+        Contact Details
+    </div>
+</div>
 </section>
 <!--FORM-->   
-<section class="border">
-    <h1 class="textcenter">Have Some Questions?</h1>
+<h1 class="textcenter textpad">Have Some Questions?</h1>
+<section class="formmain">
+    <form class="formsec">
+        <div class="form">
+            <label>Name:<input type="text"></label><br>
+            <label>Email:<input type="text"></label><br>
+            <label>Phone:<input type="text"></label>
+        </div>
+        <div class="form">
+            <label>Question:<br><input type="textarea"></label>
+        </div>
+    </form>
 </section>
     
     

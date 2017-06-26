@@ -17,14 +17,26 @@
 .textpad{
     margin: 3% 0% 2% 0%;
 }
+/*LOGO*/
+.logo{
+    position: fixed;
+    height: 6vh;
+    width: 100vw;
+    background-color: aquamarine;
+}
+
 /*NAVIGATION BAR*/
 nav{
     height: 10vh;
 }
+nav a{
+    color: black;
+}
 
 /*NAVIGATION IMAGES*/
 .navimg{
-    height: 90vh;
+    padding-top: 5vh;
+    height: 96vh;
     display: flex;
 }
 .image{
@@ -92,11 +104,62 @@ a{
     padding: 0% 5% 0% 5%;
 }
 .classesimg{
-    flex: 25%;
-    height: 50%;
-    width: 50%;
+    flex: 55%;
+}
+.classimg{
+    width:100%;
 }
 .classestext{
-    flex: 75%;
+    flex: 45%;
     padding-left: 2.5%;
+}
+table, tr, td{
+    border: 1px black solid;
+}
+/*PRICES*/
+.color{
+    background-color: mediumpurple;
+}
+.pricesec{
+    display: flex;
+    padding: 0% 5% 0% 5%;
+    margin: 2% 0%;
+}
+.price{
+    flex: 25%;
+    margin: 0% 1% 2% 0%;
+}
+.pricetop{
+    border-radius: 5px 5px 0px 0px;;
+    background-color: cyan;
+}
+.pricebottom{
+    background-color: bisque;
+}
+/*CONTACT*/
+.contactsec{
+    display: flex;
+    padding: 0% 5% 0% 5%;
+    margin: 2% 0%; 
+}
+.contact{
+    flex: 33%;
+    margin: 0% 1% 2% 0%;
+    border: black 1px solid;
+}
+/*FORM*/
+.formmain{
+    justify-content: center;
+    display: flex;
+}
+.formsec{
+    display: flex;
+    width: 80vw;
+    padding: 0% 5% 0% 5%;
+    margin: 2% 0%; 
+}
+.form{
+    flex: 50%;
+    margin: 0% 1% 2% 0%;
+    border: black 1px solid;
 }

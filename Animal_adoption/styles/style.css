@@ -1,3 +1,23 @@
+/*SITE STYLES*/
+* {
+    box-sizing: border-box;
+}
+
+.border {
+    border: black solid 1px;
+}
+
+
+/*HOME PAGE*/
+.homesec{
+    display: flex;
+}
+.homelink{
+    flex: 33%;
+}
+
+
+/*ADOPT PAGE*/
 /* Style the tab */
 div.tab {
     overflow: hidden;
@@ -34,4 +54,21 @@ div.tab button.active {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
+
+/*GET INVOLVED PAGE*/
+.involvesec{
+    display: flex;
+    flex-wrap: wrap;
+}
+.involvelink{
+    flex: 50%;
+}
+
+/*CONTACT PAGE*/
+.contactsec{
+    display: flex;
+}
+.location, .form{
+    flex: 50;
 }

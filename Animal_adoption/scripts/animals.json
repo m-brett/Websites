@@ -1,0 +1,39 @@
+{
+"dogs": [{
+        "name": "Dog",
+        "age": 2,
+        "gender": "Female",
+        "description": "About this dog",
+        "image": "<img src='../images/dog2/'>"
+    }, { 
+        "name": "Dog",
+        "age": 2,
+        "gender": "Female",
+        "description": "About this dog",
+        "image": "<img src='../images/dog2'>"
+    }]
+}
+
+/*
+
+"dog1": ["Name", "Age", "Gender", "About this dog", '<img src="../images/dog1">']  
+"dog2": {
+        "name": "Dog",
+        "age": 2,
+        "gender": "Female",
+        "description": "About this dog",
+        "image": '<img src="../images/dog2">'
+    },
+    "dogs": [{
+        "name": "Dog1",
+        "age": 2,
+        "gender": "Female",
+        "description": "About this dog",
+        "image": '<img src="../images/dog2">'
+    }, {
+        "name": "Dog2",
+        "age": 2,
+        "gender": "Female",
+        "description": "About this dog",
+        "image": '<img src="../images/dog2">'
+    }]    */

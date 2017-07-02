@@ -19,3 +19,7 @@ function openAnimal(evt, animal) {
     document.getElementById(animal).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+//var animals = JSON.parse(animals);
+var animals = JSON.parse(JSON.stringify(animals || null ))
+console.log(animals[dogs][0])

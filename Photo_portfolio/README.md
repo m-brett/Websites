@@ -1,9 +1,13 @@
 # About
 Created Aug 2017
+Tools: Html, CSS, JavaScript
+
+Description of Project
 
 
-## Future Developments to Make:
+## Additional Developments to Make:
 
-1. Animation on text to commence based on webpage position
-2. Transtion between pages when using next buttons
-3. Move the exit button to left corner on mobile view
+- [ ] Animation on text to commence based on webpage position
+- [ ] Transtion between pages when using next buttons
+- [x] Move the exit button to left corner on mobile view
+

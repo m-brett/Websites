@@ -1,7 +1,8 @@
 # About
 Created Aug 2017
 
-# Future Developments to Make:
+
+## Future Developments to Make:
 
 1. Animation on text to commence based on webpage position
 2. Transtion between pages when using next buttons

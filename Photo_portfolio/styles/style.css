@@ -305,6 +305,9 @@ input[type=submit]:hover{
   .main_text{
     width: 50vw;
   }
+  /*.about_text{
+    width: 40vw;
+  }*/
   form{
     height: 30vh;
   }
@@ -345,7 +348,7 @@ input[type=submit]:hover{
   .links{
     top: 43vh;
     padding: 1.3vh 1% 2vh 1%;
-      background-color: rgba(17,17,17,0.6);
+    background-color: rgba(17,17,17,0.6);
   }
   .links a{
     font-size: 120%;
@@ -354,6 +357,9 @@ input[type=submit]:hover{
   }
   .open_button{
     font-size: 120%;
+  }
+  .closebtn {
+    left: 30px;
   }
   h2, .pic_subtext{
     display: none;

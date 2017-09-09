@@ -232,6 +232,10 @@ h3{
   background-color: #111;
   height: 100vh;
 }
+.about_head{
+  margin: auto;
+  width: 35vw;
+}
 .about{
   text-align: center;
   font-family: 'Roboto Slab', serif;
@@ -314,6 +318,9 @@ input[type=submit]:hover{
   .about_text{
     font-size: 88%;
   }
+  .about_head{
+  width: 35vw;
+  }
   .contact_form{
     height: 50vh;
     left: 10%;
@@ -381,7 +388,9 @@ input[type=submit]:hover{
   }
   .about{
   padding: 35px 0 2% 0;
-
+  }
+  .about_head{
+  width: 60vw;
   }
   .about_text{
     margin-top: 3%;

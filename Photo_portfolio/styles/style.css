@@ -72,6 +72,7 @@ nav a:hover{
   color: #838384;
 }
 h2{
+  display: none;
   position: absolute;
   color: #B6B7B8;
   font-family: 'Open Sans', sans-serif;
@@ -80,9 +81,10 @@ h2{
   right: 3vw;
   bottom: 9vh;
   margin: 0;
-  animation: appear 5s infinite alternate;
+  animation: appear 5s;
 }
 .pic_subtext{
+  display: none;
   position: absolute;
   color: #B6B7B8;
   font-family: 'Open Sans', sans-serif;

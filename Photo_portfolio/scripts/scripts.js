@@ -8,16 +8,36 @@ $(window).on('load', function() {
     });
 });
 
-/* Starting animation based on user position on page */
-/*
-var oneView = window.innerHeight;
-console.log(innerHeight);
 
-window.onscroll = function(){
-  if (document.body.scrollTop > oneView) {
-    console.log('Here');
-  }
-}*/
+/* Starting animation based on user position on page */
+var height = window.innerHeight;
+console.log(height);
+
+$(window).scroll(function() {
+    if ($(this).width() > 784) {
+            if ($(this).scrollTop() > height*0.9) {
+                 $('#head1').css('display', 'block');
+                 $('#pic1').css('display', 'block');
+            }
+            if ($(this).scrollTop() > height*1.9) {
+                 $('#head2').css('display', 'block');
+                 $('#pic2').css('display', 'block');
+            }
+            if ($(this).scrollTop() >height*2.9) {
+                 $('#head3').css('display', 'block');
+                 $('#pic3').css('display', 'block');
+            }
+            if ($(this).scrollTop() > height*3.9) {
+                 $('#head4').css('display', 'block');
+                 $('#pic4').css('display', 'block');
+            }
+            if ($(this).scrollTop() > height*4.5) {
+                 $('#head5').css('display', 'block');
+                 $('#pic5').css('display', 'block');
+            }
+    }
+});
+
 
 /* Control opening and closing of side panel */
 function openNav(num) {

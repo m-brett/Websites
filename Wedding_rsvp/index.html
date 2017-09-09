@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8"/>
+	<html lang="en"/>
+	<title>Julie + Ryan</title>
+	<meta name="description" content="Meta Description"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
+        
+    <link rel="stylesheet" type="text/css"  href="styles/styles.css"/>
+    <script src="scripts/script.js"></script>
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">   </script>
+    <script src="scripts/script.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script src="https://use.fontawesome.com/f37781fe0a.js"></script> -->
+</head>
+
+<body>
+<section class="main">OPENING PICTURE/LOGIN
+  <form name="logIn" action=# method="post" onsubmit="validatePW(); return false">
+    <input type="password" name="login_pw">
+    <input type="submit" value="Log In">
+  </form>
+  
+</section>
+<section class="main">About Wedding</section>
+  
+<section class="main">RSVP
+  <form>
+    Name<input type="text" name="name" placeholder="Full Name">
+    RSVP
+    <input type="radio" name="attending" value="yes">Yes
+    <input type="radio" name="attending" value="no">No
+    <!-- If yes, drop down menu to select food -->
+    <div>
+        Dietary Requirements
+        <input type="radio" name="dietary" value="vege">Vegetarian
+        <input type="radio" name="dietary" value="vegan">Vegan
+        <input type="radio" name="dietary" value="gluten">Gluten Free
+        <input type="radio" name="dietary" value="kids">Children's Meal
+    </div>
+    <!-- If no, drop down text box to give reason -->
+    <div>
+        Would you like a leave a comment?
+        <textarea name="comment"></textarea>
+    </div>
+    <!-- Add extra people to RSVP -->
+    <span id="more" onclick="addFields()" style="background-color: green;">Add Guests to RSVP</span>
+    <div id="container">
+    </div>
+    
+    <input type="submit" value="RSVP">
+    
+  </form>
+  
+</section>
+  
+<section class="main">Large Image of couple</section>
+
+</body>
+
+</html>
 

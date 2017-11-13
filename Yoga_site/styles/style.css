@@ -239,20 +239,33 @@ ul{
 .contact i{
 	margin-right: 1vw;
 }
+
 /*FORM*/
-.formmain{
-    justify-content: center;
-    display: flex;  
+.form_sec{
+    padding: 0 15vw 8vh;
 }
-.formsec{
+.form_sec h2{
+	text-align: center;
+	font-size: 2rem;
+	padding-bottom: 6vh;
+	font-weight: 500;
+}
+.form_box{
     display: flex;
-    width: 80vw;
-    padding: 2% 5%;
-    margin: 2% 0%; 
+    padding: 2% 2%;
     background-color: mediumpurple;
+	border-radius: 5px;
+	align-self: center;
 }
 .form{
     flex: 50%;
-    margin: 0% 1% 2% 0%;
     border: black 1px solid;
+}
+
+/*FOOTER*/
+footer p{
+	margin-top: 2vh;
+	text-align: center;
+	padding-top: 1vh;
+	font-size: 0.8rem;
 }

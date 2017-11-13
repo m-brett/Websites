@@ -1,146 +1,195 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Droid Sans', sans-serif;
+	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+	font-size: 14px;
 }
 
-.border{
-    border: 1px solid black;
-}
-.colorBar{
-    background-color: mediumpurple;
-    height: 50px;
-}
-.textcenter{
-    text-align: center;
-}
-.textpad{
-    margin: 3% 0% 2% 0%;
-}
-h1{
-    font-size: 2em;
-}
 /*LOGO*/
 .logo{
     position: fixed;
     height: 6vh;
     width: 100vw;
-    background-color: aquamarine;
+    background-color: white;
+	box-shadow: 0px 2px 5px #dddcdc;
+}
+.logo h2{
+	margin: 1.3vh 2vh;
+	font-size: 1.1rem;
+	display: inline-block;
+}
+.logo_nav{
+	float: right;
+	margin: 1.3vh 3vh;
+}
+.logo_nav a{
+	margin-left: 2vh;
+	padding: 1vh 1vh;
+	text-decoration: none;
+	color: black;
 }
 
-/*NAVIGATION BAR*/
-nav{
-    height: 10vh;
-}
-nav a{
-    color: black;
-}
 
 /*NAVIGATION IMAGES*/
 .navimg{
     padding-top: 5vh;
     height: 96vh;
     display: flex;
+	text-align: center;
 }
-.image{
-    flex: 25%;
+.imagebg{
+	flex: 25%;
+    background-image: url("../images/ph2.jpg");
+    background-size: cover;
 }
-
-.about{
+.nav_box{
     border-radius: 5px;
     border: white solid 3px;
-    color: white;
-    font-size: 2em;
-    font-weight: bold;
+    font-weight: 500;
     width: 50%;
     display: block; 
     margin: 0 auto;
     align-self: center;
     padding: 2%;
 }
-.imagebg{
-    background-image: url("../images/ph2.jpg");
-    background-size: cover;
-   
-}
-.navbox{
+.navbox_center{
     display: flex;
     justify-content: center;
 }
-a{
+.nav_box a{
     text-decoration: none;
     color: white;
+	font-size: 1.5rem;
 }
-ul{
-    list-style-type: none;
-}
+
+
 /*ABOUT*/
-.aboutsec{
+
+.colorBar{
+    background-color: mediumpurple;
+    height: 5vh;
+}
+.about_sec{
     display: flex;
-    padding: 0% 5% 0% 5%;
+    padding: 10vh 10vw;
+	margin-bottom: 5vh;
 }
 .aboutimg{
-    flex: 25%;
-    height: 50%;
+    flex: 40%;
+	height: 90%;
     width: 40%;
 }
 .abouttext{
-    flex: 75%;
-    padding-left: 2.5%;
+    flex: 60%;
+    padding-left: 5vw;
+}
+.abouttext h2{
+	font-size: 2rem;
+	margin-bottom: 4vh;
+	font-weight: 500;
 }
 
+
 /*TEACHER*/
-.teachers{
+.teach_sec{
     display: flex;
-    padding: 2% 5% 2% 5%;
-    text-align: center;
+    padding: 0 8vw;
+	margin-bottom: 5vh;
+}
+.teach_h2{
+	font-size: 2rem;
+	margin-bottom: 4vh;
+	font-weight: 500;
+	text-align: center;
 }
 .teach{
     flex: 25%;
     padding: 1%;
 }
-.teachhead{
-    margin-top: 3%;
-    font-size: 90%;
+.teach_images{
+	width: 80%;
+	display: block;
+	margin: auto;
+	margin-bottom: 3vh;
+}
+.teach h3{
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.1rem;
+}
+.teach h4{
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.rem;
 }
 .teachtext{
-    text-align: left;
-    margin: 2% 0%;
-    font-size: 90%;
+    text-align: justify;
+    margin: 4% 3%;
 }
+
 /*CLASSES*/
 .classsec{
     display: flex;
-    padding: 0% 5% 0% 5%;
+    padding: 10vh 8vw;
 }
-.classesimg{
-    flex: 55%;
+.classtext h2{
+	font-size: 2rem;
+	margin-bottom: 4vh;
+	font-weight: 500;
 }
-.classimg{
-    width:100%;
-}
-.classestext{
+.class_table{
     flex: 45%;
-    padding-left: 2.5%;
+	align-self: center;
 }
 table, tr, td{
     border: 1px black solid;
+	border-collapse: collapse;
 }
+.download{
+	text-align: center;
+}
+.download a{
+	background-color: green;
+	display: inline-block;
+	padding: 1% 3%;
+	margin-top: 4vh;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+}
+.classtext{
+    flex: 55%;
+    padding-left: 5vw;
+}
+.classtext h3{
+	font-weight: 700;
+	font-size: 1.1rem;
+}
+.classtext p{
+	text-align: justify;
+    margin: 1% 0% 3%;
+}
+
 /*PRICES*/
-.color{
+.price_sec{
     background-color: mediumpurple;
+	padding: 8vh 8vw 4vh;
 }
-.pricesec{
+.price_boxes{
     display: flex;
-    padding: 0% 5% 0% 5%;
-    margin: 2% 5%;    
+	background-color: mediumpurple;
 }
 .price{
     flex: 25%;
     margin: 0% 2% 2% 0%;
+	text-align: center;
 }
-.pricehead{
-    padding-top: 2%;
+.price_sec h2{
+	text-align: center;
+	font-size: 2rem;
+	padding-bottom: 6vh;
+	font-weight: 500;
 }
 .pricetop{
     border-radius: 5px 5px 0px 0px;
@@ -150,26 +199,45 @@ table, tr, td{
 .pricebottom{
     background-color: bisque;
     border-radius: 0px 0px 5px 5px;
-    padding: 2%;
+    padding: 2vh 2vw;
+	text-align: left;
 }
 .featureprice{
-    font-size: 300%;
-    padding-right: 3%;
+    font-size: 3rem;
+    padding-right: 2%;
+}
+ul{
+	list-style-type: none;
 }
 .d{
-    font-size: 250%;
+    font-size: 200%;
+	padding-right: 1%;
 }
 
 /*CONTACT*/
-.contactsec{
+.contact_sec{
+    padding: 10vh 8vw;
+}
+.contact_sec h2{
+	text-align: center;
+	font-size: 2rem;
+	padding-bottom: 5vh;
+	font-weight: 500;
+}
+.contact_box{
     display: flex;
-    padding: 0% 5% 0% 5%;
-    margin: 2% 0%; 
 }
 .contact{
     flex: 33%;
     margin: 0% 1% 2% 0%;
     border: black 1px solid;
+}
+.contact p{
+	padding-bottom: 2vh;
+	display: inline-block;
+}
+.contact i{
+	margin-right: 1vw;
 }
 /*FORM*/
 .formmain{

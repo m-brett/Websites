@@ -88,7 +88,6 @@
 	font-weight: 500;
 }
 
-
 /*ABOUT*/
 
 .colorBar{
@@ -212,8 +211,18 @@ table, tr, td{
 .price_sec h2{
 	text-align: center;
 	font-size: 2rem;
-	padding-bottom: 6vh;
+	padding-bottom: 2vh;
 	font-weight: 500;
+}
+.price_sec p{
+	text-align: center;
+	padding-bottom: 6vh;
+}
+.price_sec p a{
+	text-decoration: none;
+}
+.price_sec p a:hover{
+	color: white;
 }
 .pricetop{
     border-radius: 5px 5px 0px 0px;
@@ -223,8 +232,8 @@ table, tr, td{
 .pricebottom{
     background-color: white;
     border-radius: 0px 0px 5px 5px;
+	height: 60%;
     padding: 2vh 2vw;
-	text-align: left;
 }
 .featureprice{
     font-size: 3rem;
@@ -271,24 +280,47 @@ ul{
 
 /*FORM*/
 .form_sec{
-    padding: 0 15vw 8vh;
+    padding: 0 25vw 8vh;
 }
 .form_sec h2{
 	text-align: center;
 	font-size: 2rem;
-	padding-bottom: 6vh;
+	padding-bottom: 5vh;
 	font-weight: 500;
 }
 .form_box{
     display: flex;
-    padding: 2% 2%;
+    padding: 4% 4% 3%;
     background-color: #98bb64;
 	border-radius: 5px;
 	align-self: center;
 }
-.form{
-    flex: 50%;
-    border: black 1px solid;
+.form1{
+    flex: 40%;
+}
+.form2{
+    flex: 60%;
+}
+input[type=text]{
+	padding: 1%;
+	margin-bottom: 1.5%;
+	width: 90%;
+}
+textarea{
+	padding: 1%;
+	margin-bottom: 0.5%;
+	width: 100%;
+	resize: none;
+}
+input[type=submit]{
+	padding: 1.5% 8%;
+	float: right;
+	background-color: #c1c1c1;
+	border: none;
+	border-radius: 5px;
+}
+input[type=submit]:hover{
+	background-color: white;
 }
 
 /*FOOTER*/

@@ -10,7 +10,9 @@
 	
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="styles/style.css"/>  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://use.fontawesome.com/f37781fe0a.js"></script>
+	<script src="script/script.js"></script>
         
 </head>
 
@@ -32,7 +34,7 @@
 <section class="navimg" id="home">
 <div class="imagebg_1 navbox_center">
     <div class="nav_box"><a href="#about">About</a></div>    
-</div>     
+	</div>
 <div class="imagebg_2 navbox_center">
     <div class="nav_box"><a href="#classes">Classes</a></div>    
 </div>  
@@ -94,15 +96,33 @@
         <div class="class_table">
         <div>
             <table>
-                <tr><td></td><td>Mon</td><td>Tue</td><td>Wed</td><td>Thur</td><td>Fri</td><td>Sat</td><td>Sun</td></tr>
-                <tr><td colspan="8">Morning</td></tr>
-                <tr><td>6:30</td><td></td><td>Power Flow</td><td></td><td>Power Flow</td><td>Power Flow</td><td></td><td></td></tr>
-                <tr><td>9:30</td><td>Power Flow</td><td></td><td>Power Flow</td><td></td><td>Hot Yoga</td><td>Yoga Sculpt</td><td>Power Flow</td></tr>
-                <tr><td colspan="8">Evening</td></tr>
-                <tr><td>4:00</td><td></td><td></td><td></td><td></td><td></td><td>Power Flow</td><td></td></tr>
-                <tr><td>5:30</td><td></td><td></td><td>Yoga Scuplt</td><td>Yin</td><td>Yin</td><td></td><td>Yin</td></tr>
-                <tr><td>6:15</td><td>Power Flow</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td>7:30</td><td>Yin</td><td>Power Flow</td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr>
+					<td><td>Mon</td><td>Tue</td><td>Wed</td><td>Thur</td><td>Fri</td><td>Sat</td><td>Sun</td>
+				</tr>
+                <tr class="time">
+					<td colspan="8">Morning</td>
+				</tr>
+                <tr>
+					<td>6:30</td><td></td><td class="c">Power Flow</td><td></td><td class="c">Power Flow</td><td class="c">Power Flow</td><td></td><td></td>
+				</tr>
+                <tr>
+					<td>9:30</td><td class="c">Power Flow</td><td></td><td class="c">Power Flow</td><td></td><td class="c">Hot Yoga</td><td class="c">Yoga Sculpt</td><td class="c">Power Flow</td>
+				</tr>
+                <tr class="time">
+					<td colspan="8">Evening</td>
+				</tr>
+                <tr>
+					<td>4:00</td><td></td><td></td><td></td><td></td><td></td><td class="c">Power Flow</td><td></td>
+				</tr>
+                <tr>
+					<td>5:30</td><td></td><td></td><td class="c">Yoga Scuplt</td><td class="c">Yin</td><td class="c">Yin</td><td></td><td class="c">Yin</td>
+				</tr>
+                <tr>
+					<td>6:15</td><td class="c">Power Flow</td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+                <tr>
+					<td>7:30</td><td class="c">Yin</td><td class="c">Power Flow</td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
             </table>    
         </div>
         <div class="download"><a href="#">Download Timetable</a></div> 

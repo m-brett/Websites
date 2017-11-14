@@ -11,7 +11,7 @@ $(window).on('load', function() {
 
 /* Starting animation based on user position on page */
 var height = window.innerHeight;
-var n;;
+var n;
 
 $(window).scroll(function() {
     if ($(this).width() > 784) {

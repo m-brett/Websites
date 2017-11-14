@@ -13,7 +13,7 @@
     height: 6vh;
     width: 100vw;
     background-color: white;
-	box-shadow: 0px 2px 5px #dddcdc;
+	box-shadow: 0px 2px 5px #969595;
 }
 .logo a{
 	color: #292929;
@@ -29,6 +29,7 @@
 .logo_nav{
 	float: right;
 	margin: 1.5vh 5vh;
+	display: none;
 }
 .logo_nav a{
 	margin-left: 3vh;
@@ -166,10 +167,23 @@
     flex: 45%;
 	align-self: center;
 }
+
 table, tr, td{
-    border: 1px black solid;
+    border: 1px solid #eaeaea;
 	border-collapse: collapse;
+	text-align: center;
 }
+td{
+	padding: 1%;
+}
+.time{
+	background-color: #c1c1c1;
+}
+.c{
+	background-color: #d2eaaf;
+}
+
+
 .download{
 	text-align: center;
 }
@@ -197,7 +211,7 @@ table, tr, td{
 
 /*PRICES*/
 .price_sec{
-    background-color: #98bb64;
+    background-color: #a9ce73;
 	padding: 8vh 8vw 4vh;
 }
 .price_boxes{
@@ -291,7 +305,7 @@ ul{
 .form_box{
     display: flex;
     padding: 4% 4% 3%;
-    background-color: #98bb64;
+    background-color: #a9ce73;
 	border-radius: 5px;
 	align-self: center;
 }

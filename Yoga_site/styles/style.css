@@ -72,7 +72,6 @@
     display: block; 
     margin: 0 auto;
     align-self: center;
-    padding: 2%;
 }
 .nav_box:hover {
 	padding: 3%;
@@ -84,7 +83,9 @@
 }
 .nav_box a{
     text-decoration: none;
+	display: inline-block;
     color: white;
+	margin: 4%;
     font-size: 1.5rem;
 	font-weight: 500;
 }

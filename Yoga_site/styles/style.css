@@ -14,6 +14,9 @@
     background-color: white;
 	box-shadow: 0px 2px 5px #dddcdc;
 }
+.logo a{
+	color: black;
+}
 .logo h2{
 	margin: 1.3vh 2vh;
 	font-size: 1.1rem;
@@ -21,7 +24,7 @@
 }
 .logo_nav{
 	float: right;
-	margin: 1.3vh 3vh;
+	margin: 1.5vh 4vh;
 }
 .logo_nav a{
 	margin-left: 2vh;
@@ -34,13 +37,28 @@
 /*NAVIGATION IMAGES*/
 .navimg{
     padding-top: 5vh;
-    height: 96vh;
+    height: 100vh;
     display: flex;
 	text-align: center;
 }
-.imagebg{
+.imagebg_1{
 	flex: 25%;
-    background-image: url("../images/ph2.jpg");
+    background-image: url("../images/blue.jpg");
+    background-size: cover;
+}
+.imagebg_2{
+	flex: 25%;
+    background-image: url("../images/green.jpg");
+    background-size: cover;
+}
+.imagebg_3{
+	flex: 25%;
+    background-image: url("../images/yellow.jpg");
+    background-size: cover;
+}
+.imagebg_4{
+	flex: 25%;
+    background-image: url("../images/purple.jpg");
     background-size: cover;
 }
 .nav_box{
@@ -67,8 +85,8 @@
 /*ABOUT*/
 
 .colorBar{
-    background-color: mediumpurple;
-    height: 5vh;
+    background-color: #c1c1c1;
+    height: 6vh;
 }
 .about_sec{
     display: flex;
@@ -178,7 +196,6 @@ table, tr, td{
 }
 .price_boxes{
     display: flex;
-	background-color: mediumpurple;
 }
 .price{
     flex: 25%;
@@ -194,10 +211,10 @@ table, tr, td{
 .pricetop{
     border-radius: 5px 5px 0px 0px;
     padding: 2%;
-    background-color: cyan;
+    background-color: #c1c1c1;
 }
 .pricebottom{
-    background-color: bisque;
+    background-color: white;
     border-radius: 0px 0px 5px 5px;
     padding: 2vh 2vw;
 	text-align: left;
@@ -229,8 +246,13 @@ ul{
 }
 .contact{
     flex: 33%;
-    margin: 0% 1% 2% 0%;
-    border: black 1px solid;
+    margin: 0% 2% 2% 0%;
+}
+.con_img{
+	width: 100%;
+}
+.con_details{
+	align-self: center;
 }
 .contact p{
 	padding-bottom: 2vh;
@@ -266,6 +288,6 @@ ul{
 footer p{
 	margin-top: 2vh;
 	text-align: center;
-	padding-top: 1vh;
+	padding-top: 2vh;
 	font-size: 0.8rem;
 }

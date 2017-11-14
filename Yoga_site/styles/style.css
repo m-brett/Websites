@@ -4,6 +4,7 @@
 	box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 	font-size: 14px;
+	color: #292929;
 }
 
 /*LOGO*/
@@ -15,7 +16,10 @@
 	box-shadow: 0px 2px 5px #dddcdc;
 }
 .logo a{
-	color: black;
+	color: #292929;
+}
+.logo a:hover{
+	color: #98bb64;
 }
 .logo h2{
 	margin: 1.3vh 2vh;
@@ -24,15 +28,14 @@
 }
 .logo_nav{
 	float: right;
-	margin: 1.5vh 4vh;
+	margin: 1.5vh 5vh;
 }
 .logo_nav a{
-	margin-left: 2vh;
-	padding: 1vh 1vh;
+	margin-left: 3vh;
+	padding: 1vh 0.5vh 0;
 	text-decoration: none;
-	color: black;
+	color: #292929;
 }
-
 
 /*NAVIGATION IMAGES*/
 .navimg{
@@ -64,12 +67,15 @@
 .nav_box{
     border-radius: 5px;
     border: white solid 3px;
-    font-weight: 500;
     width: 50%;
     display: block; 
     margin: 0 auto;
     align-self: center;
     padding: 2%;
+}
+.nav_box:hover {
+	padding: 3%;
+	width: 52%;
 }
 .navbox_center{
     display: flex;
@@ -78,7 +84,8 @@
 .nav_box a{
     text-decoration: none;
     color: white;
-	font-size: 1.5rem;
+    font-size: 1.5rem;
+	font-weight: 500;
 }
 
 
@@ -168,7 +175,7 @@ table, tr, td{
 	text-align: center;
 }
 .download a{
-	background-color: green;
+	background-color: #98bb64;
 	display: inline-block;
 	padding: 1% 3%;
 	margin-top: 4vh;
@@ -191,7 +198,7 @@ table, tr, td{
 
 /*PRICES*/
 .price_sec{
-    background-color: mediumpurple;
+    background-color: #98bb64;
 	padding: 8vh 8vw 4vh;
 }
 .price_boxes{
@@ -275,7 +282,7 @@ ul{
 .form_box{
     display: flex;
     padding: 2% 2%;
-    background-color: mediumpurple;
+    background-color: #98bb64;
 	border-radius: 5px;
 	align-self: center;
 }

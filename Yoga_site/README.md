@@ -2,7 +2,7 @@
 [Launch Site](https://m-brett.github.io/Websites/Yoga_site/index.html)
 
 **Created:** November 2017</br>
-**Tools:** Html, CSS, JavaScript, JQuery
+**Tools:** Html, CSS, JavaScript, JQuery</br>
 **Description:** Website for Mock Yoga Company
 
 
